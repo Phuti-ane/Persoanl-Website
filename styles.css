@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -15,16 +16,19 @@ i {
   background-color: #EEEEEE;
 }
 
+/* Container Styles */
 .container-fluid {
   text-align: right;
   padding: 5% 10% 0 0;
 }
 
+/* Navbar Styles */
 nav .navbar-nav li a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 5px;
 }
 
+/* Home Section Styles */
 .home-content {
   color: white;
   font-weight: bold;
@@ -42,57 +46,60 @@ nav .navbar-nav li a {
 }
 
 .row div h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
 .row div h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 .btn-header {
-  margin: 5% 3% 5% 0;
+  margin: 5% 0 5% 0;
 }
 
 div .btn-header a {
   padding: 5px;
 }
-.fixed-top{
+
+/* Alert Styles */
+.fixed-top {
   margin: 2% 5% 0;
 }
 
 .alert {
   height: 15px;
   width: 60%;
-  /* margin: 2% 10% 0 ; */
   position: fixed;
   background-color: #ffd966;
 }
+
 @media (max-width: 991px) {
-  .alert{
+  .alert {
     opacity: 0;
   }
-  .about-page .row div img{
+  .about-page .row div img {
     height: 80%;
   }
 }
+
 @media (min-width: 992px) {
-  .alert{
+  .alert {
     width: 100%;
   }
-  .about-page .row div img{
+  .about-page .row div img {
     height: 40%;
   }
-
 }
+
 @media (min-width: 993px) {
-  .hr{
-  border-right: solid 2px #C8C6C6;
+  .hr {
+    border-right: solid 2px #C8C6C6;
   }
 }
 
-/* about page css */
+/* About Section Styles */
 .about-page {
   margin: 5% 10%;
   padding-top: 50px;
@@ -111,10 +118,10 @@ div .btn-header a {
 .about-page .row div img {
   margin-top: 2%;
   width: 55%;
-  height: 90%;
+  height: auto;
 }
 
-/* skills and projects section */
+/* Skills and Projects Section Styles */
 #Skills-project {
   margin: 2% 10%;
   padding: 55px 0;
@@ -129,13 +136,12 @@ div .btn-header a {
 }
 
 .project {
-  /* margin: 10% 10% 0; */
   color: white;
 }
 
 .img-project {
   width: 90%;
-  height: 80%;
+  height: auto;
 }
 
 .carousel-inner div .carousel-caption p, h5 {
@@ -151,7 +157,7 @@ div .btn-header a {
   width: 100px;
 }
 
-/* contact section of the website */
+/* Contact Section Styles */
 #Contact {
   margin: 2% 10%;
   padding: 55px 0;
@@ -179,15 +185,17 @@ label {
 
 .form-control:focus {
   background-color: #EEEEEE;
+  box-shadow: none;
 }
 
 .send-btn {
-  margin: 5% 0 5%;
+  margin: 5% 0;
   background-color: #00c851;
   width: 40%;
   border-radius: 10px;
 }
 
+/* Footer Styles */
 #footer {
   height: 50px;
   padding-top: 10px;
